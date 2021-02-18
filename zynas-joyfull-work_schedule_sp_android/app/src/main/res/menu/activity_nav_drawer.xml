@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group_main">
+        <item android:id="@+id/some_item_id"
+            android:title="@string/app_joy_shift">
+            <menu>
+                <item
+                    android:id="@+id/nav_shift_app"
+                    android:title="@string/nav_shift_app" />
+                <item
+                    android:id="@+id/nav_shift"
+                    android:title="@string/nav_shift" />
+                <item
+                    android:id="@+id/nav_ws_actual"
+                    android:title="@string/nav_ws_actual" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/group_logout">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/nav_logout" />
+    </group>
+
+</menu>
